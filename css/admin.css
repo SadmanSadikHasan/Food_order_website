@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+    
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #006266;
+    padding: 1%;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #38ada9;
+}
+
+.btn-password{
+    background-color: #B53471;
+    padding: 1%;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-password:hover{
+    background-color: #6F1E51;
+}
+
+.btn-secondary{
+    background-color: #0652DD;
+    padding: 1%;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: #12CBC4;
+}
+
+.btn-danger{
+    background-color: #b71540;
+    padding: 1%;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+.success{
+    color: #0652DD;
+}
+
+.error{
+    color: #b71540;
+}
+
+/* css for menu */
+
+.menu{
+    border-bottom: 1px solid #0652DD;
+}
+
+.menu ul{
+    list-style-type: none;
+
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold ;
+    color:  #1B1464;
+}
+
+.menu ul li a:hover{
+    color:  #0652DD;
+}
+
+/* css for main content */
+
+.main_content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* css for footer */
+
+.footer{
+    background-color: #0c2461;
+    color: white;
+}
+
+/* css for login */
+
+.login{
+    border: 1px solid gray;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
