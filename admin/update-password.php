@@ -70,8 +70,10 @@
 					//check whether the query executed or not
 					if($res2==true){
 						$_SESSION['change-pwd'] = "<div class='success'>Password changed successfully.</div>";
+						header('location:'.SITEURL.'admin/manage-admin.php');
 					}else{
 						$_SESSION['change-pwd'] = "<div class='error'>Failed to changed password.</div>";
+						header('location:'.SITEURL.'admin/manage-admin.php');
 					}
 				}else{
 					$_SESSION['pwd-not-matched'] = "<div class='error'>Password did not matched.</div>";
